@@ -1,0 +1,19 @@
+{
+  "titleNView": {
+    "type": "transparent",
+    "buttons": [
+      {
+        "type": "share"
+      },
+      {
+        "type": "forward"
+      },
+      {
+        "type": "home"
+      }
+    ]
+  },
+  "usingComponents": {
+    "trailer-star": "/components/trailerStar"
+  }
+}

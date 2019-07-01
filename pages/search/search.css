@@ -1,0 +1,40 @@
+.search-icon{
+	width: 40upx;
+	height: 40upx;
+}
+.search-text{
+	font-size: 14px;
+	background-color: #eaeaea;
+	height: 60upx;
+	width: 650upx;
+}
+.search-block{
+	position: fixed;
+	display: flex;
+	padding: 0 20upx 20upx;
+	flex-direction: row;
+	z-index: 999;
+	background-color: #f8f8f8;
+}
+.search-icon-wapper{
+	display: flex;
+	padding: 0 10upx;
+	flex-direction: column;
+	justify-content: center;
+	background: #eaeaea;
+}
+/* 预告片 */
+.poster{
+	width: 200upx;
+	height: 270upx;
+}
+.movie-list{
+	display: flex;
+	padding: 100upx 10upx 0;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+.movie-wapper{
+	padding: 10upx 20upx;
+}

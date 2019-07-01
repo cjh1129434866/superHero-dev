@@ -1,0 +1,185 @@
+.carousel{
+	width: 100%;
+	height: 440rpx;
+}
+
+/* 热门超英 */
+.super-hot{
+	margin-top: 12rpx;
+	padding: 20rpx;
+}
+.hot-title-wrapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.hot-icon{
+	margin-top: 15rpx;
+	width: 30rpx;
+	height: 30rpx;
+}
+.hot-title{
+	margin-left: 15rpx;
+	font-size: 20px;
+	font-weight: bold;
+}
+.hot{
+	width: 100%;
+	white-space: nowrap;
+}
+.single-poster{
+	display: inline-block;
+	margin-left: 20rpx;
+}
+.poster-wapper{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.poster{
+	width: 200rpx;
+	height: 270rpx;
+}
+.movie-name{
+	margin-top: 10rpx;
+	width: 200rpx;
+  font-size: 14px;
+	font-weight: bold;
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+
+/* 热门预告 */
+.hot-movies{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0 20rpx 20rpx;
+}
+.hot-movie-single{
+	width: 350rpx;
+	height: 220rpx;
+	margin-top: 10rpx;
+}
+
+/* 猜你喜欢 */
+.guess-u-like{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.single-like-movie{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 30rpx 20rpx;
+}
+.like-movie{
+	width: 180rpx;
+	height: 240rpx;
+	-webkit-border-radius: 3%;
+	        border-radius: 3%;
+}
+.movie-desc{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	width: 340rpx;
+}
+.movie-title{
+	overflow: hidden;
+	white-space: nowrap;
+	-o-text-overflow: ellipsis;
+	   text-overflow: ellipsis;
+}
+.movie-info{
+	color: #808080;
+	font-size: 14px;
+}
+
+/* 点赞 */
+.movie-oper{
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	border-left: 2px dashed #dbdbda;
+}
+.praise-icon{
+	width: 40rpx;
+	height: 40rpx;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.praise-me{
+	font-size: 14px;
+	color: #feab2a;
+	-webkit-align-self: center;
+	    -ms-flex-item-align: center;
+	        align-self: center;
+}
+.animation-opacity{
+	font-weight: bold;
+	opacity: 0;
+}
+
